@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+.container{
+   width: 500px;
+   height: 1000px;
+   display:flex;
+   flex-wrap: wrap;
+ margin-left: 300px;;
+}
+.container .heading{
+    background-color:#3d73dd;
+    width:500px;
+    height:150px;
+   
+    color:black;
+    border-top: 2px solid lightgray;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.container .display{
+    overflow:scroll;
+    margin:0;
+   width:500px;
+   height:500px;
+   position:absolute;
+   top:150px;
+   color:black;
+   overflow: scroll;
+   float:right;
+    
+}
+.container #displayuser{
+    background-color: lightgray;
+    float:right;
+    margin-top:30px;
+    padding:20px;
+    border-radius:20px;
+    width:200px;
+}
+.container .displayauto{
+    background-color: lightgray;
+    float:left;
+    margin-top:30px;
+    padding:20px;
+    border-radius:20px;
+    width:200px;
+}
+.container .displayauto2{
+    background-color: lightgray;
+    float: right;;
+    margin-top:30px;
+    padding:20px;
+    border-radius:20px;
+    width:200px;
+}
+
+.container .messages{
+    margin:0;
+    width:500px;
+    height:500px;
+    position: absolute;
+    top:670;
+    
+
+
+}
+.container .messages input{
+    width:400;
+    height:100;
+    overflow:scroll;
+    border-radius: 20px;
+    font-size:20px;
+
+}
+.container .messages button{
+    padding:0 20 0 20;
+    border-radius:20px;
+    background-color:#3d73dd;
+    font-size:20px;
+    font-weight: bold;
+    cursor:pointer;
+
+}
